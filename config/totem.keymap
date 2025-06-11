@@ -398,10 +398,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q               &kp W           &kp F           &kp P             &kp B        &kp J                      &kp L             &kp U               &kp Y           &mmquote
-                &mt LGUI A          &mt LALT R      &mt LCTRL S     &mt LSHFT T       &kp G        &kp M                      &mt LEFT_SHIFT N  &mt LEFT_CONTROL E  &mt LEFT_ALT I  &mt RGUI O
-&kp LEFT_SHIFT  &mt LEFT_CONTROL Z  &mt LEFT_ALT X  &kp C           &kp D             &kp V        &kp K                      &kp H             &kp NB_COMMA        &kp NB_DOT      &mmQuestionExplemation  &backspace_layerswitch
-                                                    &lt 2 LEFT_ALT  &testbeh 2 SPACE  &lt 1 TAB    &bmt LEFT_SHIFT BACKSPACE  &lt 4 ENTER       &lt 4 BACKSPACE
+                &kp Q  &kp W  &kp E           &kp R             &kp T                   &kp Y            &kp U        &kp I            &kp O       &kp P
+                &kp A  &kp S  &kp D           &kp F             &kp G                   &kp H            &kp J        &kp K            &kp L       &kp O
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V             &kp B                   &kp N            &kp M        &kp NB_COMMA     &kp NB_DOT  &kp NB_MINUS  &kp RIGHT_SHIFT
+                              &lt 2 LEFT_ALT  &testbeh 3 ENTER  &mt LEFT_CONTROL TAB    &lt 1 BACKSPACE  &lt 4 SPACE  &lt 1 BACKSPACE
             >;
         };
 
@@ -440,19 +440,19 @@
 
         Symbols {
             bindings = <
-           &kp NB_TILDE  &kp NB_DOLLAR      &kp NB_LEFT_BRACE        &kp NB_RIGHT_BRACE        &kp NB_AT               &kp NB_PLUS        &kp NB_ASTERISK  &kp NB_PIPE       &kp NB_QUESTION      &trans
-           &kp NB_COLON  &kp NB_SEMICOLON   &kp NB_LEFT_PARENTHESIS  &kp NB_RIGHT_PARENTHESIS  &kp NB_DOUBLE_QUOTES    &kp NB_MINUS       &kp NB_EQUAL     &kp NB_AMPERSAND  &kp NB_EXCLAMATION   &kp NB_PERCENT
-&kp LCTRL  &kp NB_GRAVE  &kp NB_APOSTROPHE  &kp NB_LEFT_BRACKET      &kp NB_RIGHT_BRACKET      &kp NB_SQT              &kp NB_UNDERSCORE  &kp NB_HASH      &kp NB_LESS_THAN  &kp NB_GREATER_THAN  &kp NB_SLASH    &trans
-                                            &trans                   &trans                    &trans                  &trans             &trans           &trans
+           &kp NB_CARET    &kp NB_DOLLAR   &kp NB_LEFT_BRACE        &kp NB_RIGHT_BRACE        &kp NB_DOUBLE_QUOTES    &kp NB_PLUS        &kp NB_ASTERISK  &kp NB_PIPE       &kp NB_QUESTION      &trans
+           &kp NB_AT_SIGN  &kp NB_PERCENT  &kp NB_LEFT_PARENTHESIS  &kp NB_RIGHT_PARENTHESIS  &kp NB_SEMICOLON        &kp NB_MINUS       &kp NB_EQUAL     &kp NB_AMPERSAND  &kp NB_EXCLAMATION   &kp NB_SLASH
+&kp LCTRL  &kp NB_GRAVE    &kp NB_ACUTE    &kp NB_LEFT_BRACKET      &kp NB_RIGHT_BRACKET      &kp NB_SINGLE_QUOTE     &kp NB_UNDERSCORE  &kp NB_HASH      &kp NB_LESS_THAN  &kp NB_GREATER_THAN  &kp NB_BACKSLASH  &trans
+                                           &trans                   &trans                    &trans                  &trans             &trans           &trans
             >;
         };
 
         Brightness_System {
             bindings = <
-        &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &none     &trans          &trans          &trans          &trans        &trans
-        &trans  &trans      &kp C_STOP         &kp C_PLAY_PAUSE  &none     &kp C_MENU_ESC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT
-&trans  &trans  &trans      &kp C_PREV         &kp C_NEXT        &trans    &trans          &kp INSERT      &kp HOME        &trans        &trans     &trans
-                            &trans             &trans            &trans    &trans          &trans          &trans
+        &trans  &kp C_MUTE            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &none     &kp DELETE      &kp HOME        &trans          &trans        &trans
+        &trans  &kp LA(LC(NB_SLASH))  &kp C_STOP         &kp LC(NB_PERIOD)  &none     &kp C_MENU_ESC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT
+&trans  &trans  &trans                &kp C_PREV         &kp C_NEXT         &trans    &trans          &kp INSERT      &kp HOME        &trans        &trans     &trans
+                                      &trans             &trans             &trans    &trans          &trans          &trans
             >;
         };
 
