@@ -449,9 +449,9 @@
 
         Brightness_System {
             bindings = <
-        &trans  &kp C_MUTE            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &none     &kp DELETE      &kp HOME        &trans          &trans        &trans
-        &trans  &kp LA(LC(NB_SLASH))  &kp C_STOP         &kp LC(NB_PERIOD)  &none     &kp C_MENU_ESC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT
-&trans  &trans  &trans                &kp C_PREV         &kp C_NEXT         &trans    &trans          &kp INSERT      &kp HOME        &trans        &trans     &trans
+        &trans  &kp C_MUTE            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &none     &kp DELETE      &kp HOME        &kp UP_ARROW    &trans     &trans
+        &trans  &kp LA(LC(NB_SLASH))  &kp C_STOP         &kp LC(NB_PERIOD)  &none     &kp C_MENU_ESC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RIGHT
+&trans  &trans  &trans                &kp C_PREV         &kp C_NEXT         &trans    &trans          &kp INSERT      &kp HOME        &trans     &trans     &trans
                                       &trans             &trans             &trans    &trans          &trans          &trans
             >;
         };
